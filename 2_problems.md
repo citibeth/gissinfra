@@ -69,12 +69,11 @@ C = ds3.variables['C']
 ## Problem: Mining GCM Output
 ###Solution: Pandas + ggplot
 
-[ggplot for Python](http://pt.slideshare.net/PyData/ggplotforpython1-140503092932phpapp02)
+* Pandas provides R-like dataframes, widely used in "Data Science" applications.
+* [ggplot for Python](http://pt.slideshare.net/PyData/ggplotforpython1-140503092932phpapp02)
 Book: [The Grammar of Graphics](https://clio.columbia.edu/catalog/7899682?counter=1)
-
-![Facets](http://image.slidesharecdn.com/ggplotforpython1-140503092932-phpapp02-140530155200-phpapp02/95/ggplot-for-python-sv-2014-13-638.jpg?cb=1402317710)
-
-![Matplotlib vs. Python](http://image.slidesharecdn.com/ggplotforpython1-140503092932-phpapp02-140530155200-phpapp02/95/ggplot-for-python-sv-2014-14-638.jpg?cb=1402317710)
+* ![Facets](http://image.slidesharecdn.com/ggplotforpython1-140503092932-phpapp02-140530155200-phpapp02/95/ggplot-for-python-sv-2014-13-638.jpg?cb=1402317710)
+* ![Matplotlib vs. Python](http://image.slidesharecdn.com/ggplotforpython1-140503092932-phpapp02-140530155200-phpapp02/95/ggplot-for-python-sv-2014-14-638.jpg?cb=1402317710)
 
 -----------------------------------------------------------
 
@@ -98,7 +97,14 @@ Book: [The Grammar of Graphics](https://clio.columbia.edu/catalog/7899682?counte
   - Local Grids (Ice Modeling)
 
 -----------------------------------------------
-##Problem: Integrate Legacy Code
+##Problem: Integrate Fortran Code
+###Solution: Cython Wrappers + f90wrap
 
+* Don't rewrite youre core analytics in Python!
+* Integrate any C/C++/Fortran code as a Python extension
+  - [Wrapping C++](http://docs.cython.org/src/userguide/wrapping_CPlusPlus.html)
+  - [Wrapping Fortran](https://github.com/jameskermode/f90wrap)
 
-##
+##Work:
+* One person should specialize in this.
+
