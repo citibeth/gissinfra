@@ -7,6 +7,7 @@
 * Everything in one consistent framework: no more Fortran + Perl + NCO + Python + bash scripting  
 
 ###Examples:
+# [Live IPython Demo from Nature](http://www.nature.com/news/ipython-interactive-demo-7.21492)
 * [IPyhton interact and widgets... (3-line ncview)](http://earthpy.org/pyncview_pm.html)
 * [Optimizing code for iso-surfaces...](https://ocefpaf.github.io/python4oceanographers/blog/2015/10/05/isosurfaces)
 * [Estimated likelihood of observing...](http://nbviewer.ipython.org/github/cossatot/lanf_earthquake_likelihood/blob/master/notebooks/lanf_manuscript_notebook.ipynb)
