@@ -1,8 +1,13 @@
 # Build: The Achilles Heel
 
 Building software is not sexy, but it is critical!
+ * Required for envisioned Python environment
+  - Dozens of Python packages required + system prerequisites.
+  - Must install on discover (for iPython / Jupyter).
  * Increasingly required for ModelE
-   - ModelE+Ice has dozens of dependencies, does not yet run on discover.
+   - ModelE+Ice has dozens of dependencies.
+   - Serious problem for running on discover.
+
 
 ## Building on a Mac: MacPorts
  * Gets you the software you need
