@@ -1,4 +1,4 @@
-# Problems
+
 
 ## Problem: We're at GISS, data on discover
 ### Solution: iPython (Jupyter) Notebooks
@@ -15,7 +15,9 @@
 * Two days to get Jupyter on 
 discover in conformance with NASA security 
 regulations.
-	
+
+---------------------------------
+
 ##Problem: Pre-process, post-process data files
 ###Solution: Python + netCDF
 
@@ -34,6 +36,7 @@ nco.createVariable('C', 'd', ('jm', 'im'))
 nco.close()
 nc.close()
 ```
+-----------------------------------------------
 
 ##Problem: Uniform Data Access
 Consider plot program (like Panoply) that plots stuff in a netCDF file.
@@ -61,6 +64,8 @@ C = ds3.variables['C']
 * More design than coding.
 * Antecedents exist, but they are proprietary.
 
+-------------------------------------------------------------------
+
 ## Problem: Mining GCM Output
 ###Solution: Pandas + ggplot
 
@@ -71,14 +76,29 @@ Book: [The Grammar of Graphics](https://clio.columbia.edu/catalog/7899682?counte
 
 ![Matplotlib vs. Python](http://image.slidesharecdn.com/ggplotforpython1-140503092932-phpapp02-140530155200-phpapp02/95/ggplot-for-python-sv-2014-14-638.jpg?cb=1402317710)
 
+-----------------------------------------------------------
 
+## Problem: Arrays Bigger than Memory!
+###Solution: dask
 
+[Calculations with arrays bigger than your memory (dask arrays)](http://earthpy.org/dask.html)
 
+-----------------------------------------------------
 
+##Problem: Make maps
+###Solution: matplotlib/basemap
 
-Pandas: R-style dataframes
-dask: Analyze datasets larger than memory
-matplotlib/basemap: Mapping
-ggplot: Plotting
+![Basemap Example](http://matplotlib.org/basemap/_images/plotetopo5_00_00.png)
+
+###Work:
+* "Plotters" needed to abstract away different grids and data formats:
+  - Lat/Lon Grid
+  - Cube Sphere Grid
+  - Elevation Grid (Ice Modling)
+  - Local Grids (Ice Modeling)
+
+-----------------------------------------------
+##Problem: Integrate Legacy Code
+
 
 ##
