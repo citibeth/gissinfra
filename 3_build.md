@@ -22,6 +22,7 @@ Building software is not sexy, but it is critical!
  * NCCS sysadmins will appreciate it?
    - Easier than building by hand.
    - Integrates with module system.
+ * Spack is also an EasyBuild Alternative.
 
 ## Python Environment: Conda, PyPi
  * Better and more complete for Python stuff
