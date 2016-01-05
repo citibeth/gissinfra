@@ -1,6 +1,7 @@
 #Introduction
 
-**Purpose:** Discuss tools and software that could help our work at GISS.
+##Purpose
+Discuss tools and software that could help our work at GISS.
    - We have **common problems** but not yet **common solutions**
    - Needs not unique to GISS, but shared with:
        - Earth science community
@@ -22,6 +23,7 @@
 * Bigger, Faster Computers
    - Python practical for many problems.
    - Datasets bigger than ever.
+   - Software bigger than ever (with more dependencies).
 * Centralization of large-scale computing
    - Deal with remote supercomputers.
    - More available resources for large-scale analysis.
